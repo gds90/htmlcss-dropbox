@@ -18,6 +18,28 @@ footer {
     padding: 50px 0;
 }
 
+h1 {
+    text-align: left;
+    font-size: 60px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    background-color: rgb(40,95,246);
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
 /* COMMON  */
 
 header ul {
@@ -28,20 +50,13 @@ ul.d-flex li {
     padding:  30px 15px;
 }
 
+#jumbo p {
+    line-height: 1.5;
+}
+
 header a {
     text-decoration: none;
     color:black
-}
-
-#logo {
-  
-}
-
-button {
-    background-color: blue;
-    padding: 5px 10px;
-    color: white;
-    border: none;
 }
 
 .sb {
@@ -56,7 +71,6 @@ button {
 .container-bg {
     max-width: 80%;
     margin:0 auto;
-    background-color: bisque;
 }
 
 .container-sm {
@@ -154,6 +168,17 @@ button {
     padding: 50px 0;
 }
 
+.margin-top-30 {
+    margin-top: 30px;
+}
+
 h2 {
     padding: 20px 0;
+}
+
+.sub-type {
+    margin-left: 5px;
+    margin-right: 40px;
+    line-height: 2;
+    vertical-align: middle
 }

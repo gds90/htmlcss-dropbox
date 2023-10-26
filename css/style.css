@@ -3,3 +3,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.sb {
+    border: 1px dashed black;
+}
+
+header {
+    height: 75px;
+    background-color: red;
+}
+
+/* COMMON  */
+.container-full {
+    width: 100%;
+    background-color: rgb(185,207,229);
+    padding: 50px;
+}
+
+.container-bg {
+    max-width: 80%;
+    margin:0 auto;
+    background-color: bisque;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+
+}
+
+.col-30 {
+    width: 30%;
+    background-color: springgreen;
+}
+
+.col-40 {
+    width: 40%;
+    background-color: springgreen;
+}
+
+.col-60 {
+    width: 60%;
+    background-color: springgreen;
+}
+
+
+
+.content {
+    width: 100%;
+    height: 300px;
+    background-color: brown;
+}
+
+.content-75 {
+    width: 100%;
+    height: 75px;
+    background-color: blue;
+}
+
+.justify-sb {
+    justify-content: space-between;
+}

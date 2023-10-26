@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <title>Dropbox</title>
 </head>
 <body>
@@ -70,25 +71,54 @@
             </div>
             <!-- layout con 3 colonne contenenti liste  -->
             <div id="radio" class="container-sm sb">
-                <input type="radio"><span class="sub-type">Fatturazione mensile</span>
-                <input type="radio"><span class="sub-type">Fatturazione annuale</span>
+                <input type="radio"><span class="pay-type">Fatturazione mensile</span>
+                <input type="radio"><span class="pay-type">Fatturazione annuale</span>
             </div>
             <div class="container-sm padding-50">
                 <div class="row justify-sb">
                     <div class="col-30">
-                        <div class="content-300 sb">
-                            
-
+                        <div class="content sub-type sb">
+                            <span><i class="fa-solid fa-user"></i>Singolo</span>
+                        </div>
+                    </div>
+                    <div class="col-30 sb">
+                        <div class="content top-column sb">
+                            <span><i class="fa-solid fa-people-group"></i>Team</span>
+                        </div>
+                        <div class="content bottom-column">
+                            <h3>Advanced</h3>
+                            <div class="font-size-12">
+                                <p class="price margin-top-20">&euro; 18.00</p>
+                                <p class="period margin-top-10">/utente/mese</p>
+                            </div>
+                            <div class="margin-top-30 font-size-12">
+                                <ul class="info">
+                                    <li>3 o più utenti</li>
+                                    <li>Tutto lo spazio di cui ha bisogno il tuo team</li>
+                                    <li>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
+                                </ul>
+                            </div>
+                            <div class="margin-top-30">
+                                <button>Prova gratis per 30 giorni</button>
+                                <p class="margin-top-20 font-size-12">oppure <a href="#">acquista ora</a></p>
+                            </div>
+                            <div class="margin-top-30">
+                                <h6>Punti Salienti del piano</h6>
+                                <div class="content font-size-12 margin-top-20">
+                                    <ul class="highlights">
+                                        <li>Nessun limite di spazio per i file</li>
+                                        <li>Cartelle offline su dispositivi mobili</li>
+                                        <li>Risparmio del 50% rispetto alle iscrizioni singole</li>
+                                        <li>Possibilità di inserire nuovi membri del team</li>
+                                        <li>Gestione dei permessi in base ai ruoli</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-30">
-                        <div class="content-300 sb">
-                            
-                        </div>
-                    </div>
-                    <div class="col-30">
-                        <div class="content-300 sb">
-                            
+                        <div class="content sub-type sb">
+                            <span><i class="fa-solid fa-building"></i>Azienda</span>
                         </div>
                     </div>
                 </div>

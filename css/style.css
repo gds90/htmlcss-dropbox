@@ -9,6 +9,11 @@ header {
     background-color: red;
 }
 
+footer {
+    background-color: black;
+    padding: 50px 0;
+}
+
 /* COMMON  */
 
 .sb {
@@ -38,8 +43,34 @@ header {
     flex-wrap: wrap;
 }
 
+
+.square {
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-20 {
+    width: calc(100% / 5);
+}
+
+.col-25 {
+    width: calc(100% / 4);
+    height: calc(100% / 2);
+}
+
 .col-30 {
     width: 30%;
+}
+
+.col-33 {
+    width: calc(100% / 3);
 }
 
 .col-40 {

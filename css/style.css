@@ -28,11 +28,15 @@ h2 {
     font-size: 28px;
 }
 
+p {
+    line-height: 1.5;
+}
+
 img {
     width: 100%;
 }
 
-button {
+.button {
     background-color: rgb(40,95,246);
     padding: 10px 15px;
     color: white;
@@ -42,6 +46,13 @@ button {
 
 .button-full {
     width: 100%;
+}
+
+#partner-button {
+    padding: 10px 15px;
+    border: 1px solid black;
+    font-size: 13px;
+    background-color: white;
 }
 
 hr {
@@ -139,6 +150,7 @@ header a {
 
 .col-40 {
     width: 40%;
+    padding: 40px;
 }
 
 .col-50 {
@@ -199,6 +211,10 @@ header a {
 
 .padding-top-20 {
     padding-top: 20px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
 }
 
 .margin-top-30 {

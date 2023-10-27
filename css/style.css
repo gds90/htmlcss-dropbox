@@ -72,6 +72,7 @@ ul.d-flex li {
 
 ul.info li {
     padding:  10px 0px;
+    line-height: 1.5;
 }
 
 ul.info {
@@ -80,6 +81,7 @@ ul.info {
 
 ul.highlights li {
     margin: 10px 0;
+    line-height: 1.5;
 }
 
 ul.footer-list {
@@ -106,8 +108,10 @@ header a {
     color:black
 }
 
-.sb {
-    border: 1px dashed black;
+.arrow {
+    font-size: 50px;
+    position: relative;
+    top: 50px;  
 }
 
 .container-full {
@@ -136,7 +140,6 @@ header a {
 .square {
     width: 50%;
     height: calc(100vw / 6);
-    border: 1px solid black;
     position: relative;
 }
 
@@ -166,7 +169,6 @@ header a {
 
 .col-40 {
     width: 40%;
-    padding: 40px;
 }
 
 .col-50 {
@@ -270,7 +272,11 @@ h2 {
 }
 
 .bottom-column {
-    padding:20px
+    padding:20px;
+}
+
+.font-size-14{
+    font-size: 14px;
 }
 
 .font-size-12{
@@ -289,9 +295,14 @@ h2 {
     font-weight: 600;
 }
 
-.img-pos {
+.pos-rel {
     position: relative;
-    top: 25px;}
+    top: 60px;
+}
+
+.pos-abs {
+    position: absolute;
+}
 
 .align-cen {
     align-items: center; 

@@ -11,6 +11,10 @@ body {
 header {
     height: 85px;
     font-size: small;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
 }
 
 footer {
@@ -41,7 +45,7 @@ img {
     padding: 10px 15px;
     color: white;
     border: none;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .button-full {
@@ -99,6 +103,10 @@ ul.footer-list > li:first-child {
     font-weight: 600;
 }
 
+.bg-lightblue {
+    background-color: rgb(185,207,229);
+}
+
 #jumbo p {
     line-height: 1.5;
 }
@@ -111,12 +119,11 @@ header a {
 .arrow {
     font-size: 50px;
     position: relative;
-    top: 50px;  
+    top: 10px;  
 }
 
 .container-full {
     width: 100%;
-    background-color: rgb(185,207,229);
 }
 
 .container-bg {
@@ -372,6 +379,10 @@ ul.highlights {
 
 #square-clearchannel {
     background-color: rgb(249,218,86);
+}
+
+#square-hearst {
+    background-color: rgb(185,207,229)
 }
 
 .invert-color{

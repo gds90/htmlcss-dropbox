@@ -15,7 +15,7 @@
             <div class="col-50">
                 <div class="content">
                     <ul class="d-flex align-cen">
-                        <li id="logo"><img src="./img/logo-small.png" alt=""></li>
+                        <li><img src="./img/logo-small.png" alt=""></li>
                         <li><a href="#jumbo">Perch&egrave; Dropbox</a></li>
                         <li><a href="#operations">Funzioni</a></li>
                         <li><a href="#subscription">Piani e Prezzi</a></li>
@@ -39,11 +39,11 @@
         <!-- JUMBO  -->
         <section id="jumbo">
             <!-- Contenitore full con sfondo azzurro  -->
-            <div class="container-full padding-50">
+            <div class="container-full padding-top-50">
                 <!-- Contenitore grande con h1 e layout a 2 colonne  -->
                 <div class="container-bg">
                     <h1>Tutto ci&ograve; che ti serve per il lavoro, in un unico posto</h1>
-                    <div class="row padding-50">
+                    <div class="row padding-top-50">
                         <div class="col-40">
                             <div class="content">
                                 <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori
@@ -55,7 +55,7 @@
                         </div>
                         <div class="col-60">
                             <div class="content">
-                                <img src="./img/jumbo.png" class="img-size" alt="">
+                                <img src="./img/jumbo.png" class="img-pos" alt="">
                             </div>
                         </div>
                     </div>
@@ -65,26 +65,54 @@
         <!-- SEZIONE ABBONAMENTO -->
         <section id="subscription">
             <!-- layout cravattato con container piccolo  -->
-            <div class="container-sm padding-50">
+            <div class="container-sm padding-top-50">
                 <h2>Trova il piano business che fa per te</h2>
             </div>
             <!-- layout con 3 colonne contenenti liste  -->
-            <div id="radio" class="container-sm sb">
-                <input type="radio"><span class="pay-type">Fatturazione mensile</span>
+            <div id="radio" class="container-sm d-flex align-cen">
+                <input type="radio"><span class="pay-type ">Fatturazione mensile</span>
                 <input type="radio"><span class="pay-type">Fatturazione annuale</span>
             </div>
-            <div class="container-sm padding-50">
+            <div class="container-sm padding-top-50">
                 <div class="row justify-sb">
-                    <div class="col-30">
-                        <div class="content sub-type sb">
+                    <div class="col-30 border-column">
+                        <div class="content top-column bottom-border">
                             <span><i class="fa-solid fa-user"></i>Singolo</span>
                         </div>
+                        <div class="content bottom-column padding-top-20">
+                            <h3>Professional</h3>
+                            <div class="font-size-12">
+                                <p class="price margin-top-20">&euro; 12.00</p>
+                                <p class="period margin-top-10">/mese</p>
+                            </div>
+                            <div class="margin-top-30 font-size-12">
+                                <ul class="info">
+                                    <li><i class="fa-solid fa-user"></i>1 utente</li>
+                                    <li><i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione sicuro</li>
+                                    <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttivit&agrave; premium e condivisione file semplice e sicura</li>
+                                </ul>
+                            </div>
+                            <div class="margin-top-30">
+                                <button class="button-full">Prova gratis per 30 giorni</button>
+                                <p class="margin-top-20 font-size-12">oppure <a href="#">acquista ora</a></p>
+                            </div>
+                            <hr class="margin-top-30">
+                            <div class="margin-top-30">
+                                <h6>Punti Salienti del piano</h6>
+                                <div class="content font-size-12 margin-top-20">
+                                    <ul class="highlights">
+                                        <li>Invia file fino a 100 GB con Dropbox Transfert</li>
+                                        <li>Cartelle offline su dispositivi mobili</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-30 sb">
-                        <div class="content top-column sb">
+                    <div class="col-30 border-column">
+                        <div class="content top-column bottom-border">
                             <span><i class="fa-solid fa-people-group"></i>Team</span>
                         </div>
-                        <div class="content bottom-column">
+                        <div class="content bottom-column padding-top-20">
                             <h3>Advanced</h3>
                             <div class="font-size-12">
                                 <p class="price margin-top-20">&euro; 18.00</p>
@@ -92,32 +120,62 @@
                             </div>
                             <div class="margin-top-30 font-size-12">
                                 <ul class="info">
-                                    <li>3 o più utenti</li>
-                                    <li>Tutto lo spazio di cui ha bisogno il tuo team</li>
-                                    <li>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
+                                    <li><i class="fa-solid fa-people-group"></i>3 o più utenti</li>
+                                    <li><i class="fa-solid fa-folder"></i>Tutto lo spazio di cui ha bisogno il tuo team</li>
+                                    <li><i class="fa-solid fa-share-nodes"></i>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
                                 </ul>
                             </div>
                             <div class="margin-top-30">
-                                <button>Prova gratis per 30 giorni</button>
+                                <button class="button-full">Prova gratis per 30 giorni</button>
                                 <p class="margin-top-20 font-size-12">oppure <a href="#">acquista ora</a></p>
                             </div>
+                            <hr class="margin-top-30">
                             <div class="margin-top-30">
                                 <h6>Punti Salienti del piano</h6>
                                 <div class="content font-size-12 margin-top-20">
                                     <ul class="highlights">
                                         <li>Nessun limite di spazio per i file</li>
                                         <li>Cartelle offline su dispositivi mobili</li>
-                                        <li>Risparmio del 50% rispetto alle iscrizioni singole</li>
-                                        <li>Possibilità di inserire nuovi membri del team</li>
+                                        <li>Risparmio del 50&percnt; rispetto alle iscrizioni singole</li>
+                                        <li>Possibilit&agrave; di inserire nuovi membri del team</li>
                                         <li>Gestione dei permessi in base ai ruoli</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-30">
-                        <div class="content sub-type sb">
-                            <span><i class="fa-solid fa-building"></i>Azienda</span>
+                    <div class="col-30 border-column">
+                        <div class="content top-column bottom-border">
+                            <span><i class="fa-solid fa-building"></i></i>Azienda</span>
+                        </div>
+                        <div class="content bottom-column padding-top-20">
+                            <h3>Enterprise</h3>
+                            <div class="font-size-12">
+                                <p class="price margin-top-20">Contattaci</p>
+                                <p class="period margin-top-10">-</p>
+                            </div>
+                            <div class="margin-top-30 font-size-12">
+                                <ul class="info">
+                                    <li><i class="fa-solid fa-user"></i>10 o pi&ugrave; utenti</li>
+                                    <li><i class="fa-solid fa-folder"></i>Soluzioni personalizzabili per la tua azienda</li>
+                                    <li><i class="fa-solid fa-share-nodes"></i>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
+                                </ul>
+                            </div>
+                            <div class="margin-top-30">
+                                <button class="button-full">Contattaci</button>
+                                <p class="margin-top-20 font-size-12">oppure <a href="#">acquista ora</a></p>
+                            </div>
+                            <hr class="margin-top-30">
+                            <div class="margin-top-30">
+                                <h6>Punti Salienti del piano</h6>
+                                <div class="content font-size-12 margin-top-20">
+                                    <ul class="highlights">
+                                        <li>Cartelle offline su dispositivi mobili</li>
+                                        <li>Servizio assistenza 24/h</li>
+                                        <li>Possibilit&agrave; di personalizzazione totale</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

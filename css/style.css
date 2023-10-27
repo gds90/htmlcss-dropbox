@@ -40,6 +40,15 @@ button {
     font-size: 13px;
 }
 
+.button-full {
+    width: 100%;
+}
+
+hr {
+    width: 20%;
+    color: rgb(228,228,230);
+}
+
 /* COMMON  */
 
 header ul {
@@ -51,7 +60,7 @@ ul.d-flex li {
 }
 
 ul.info li {
-    padding:  10px 15px;
+    padding:  10px 0px;
 }
 
 ul.info {
@@ -59,7 +68,7 @@ ul.info {
 }
 
 ul.highlights li {
-    margin: 15px 0;
+    margin: 10px 0;
 }
 #jumbo p {
     line-height: 1.5;
@@ -99,12 +108,13 @@ header a {
 
 .square {
     width: 50%;
-    height: 50%;
+    height: calc(100vw / 6);
     background-color: red;
     border: 1px solid black;
 }
 
 .d-flex {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -179,8 +189,12 @@ header a {
     align-items: center
 }
 
-.padding-50 {
-    padding: 50px 0;
+.padding-top-50 {
+    padding-top: 50px;
+}
+
+.padding-top-20 {
+    padding-top: 20px;
 }
 
 .margin-top-30 {
@@ -202,18 +216,17 @@ h2 {
 .pay-type {
     margin-left: 5px;
     margin-right: 40px;
-    line-height: 2;
-    vertical-align:baseline;
     font-size: 12px;
 }
 
 .top-column {
     text-align: center;
     font-size: 12px;
+    padding: 10px;
 }
 
 .bottom-column {
-    padding:15px;
+    padding:20px
 }
 
 .font-size-12{
@@ -221,18 +234,46 @@ h2 {
 }
 
 .fa-solid {
-    padding: 8px;
+    margin-right: 5px;
 }
 
 .price {
     font-weight: 600;
 }
 
-.img-size {
-
-}
+.img-pos {
+    position: relative;
+    top: 25px;}
 
 .align-cen {
     align-items: center; 
     height: 100%; 
-} 
+}
+
+/* ul.info li:first-child::before {
+    content: "\f1e0";
+    font-family: 'font-awesome';
+} */
+
+ul.highlights li::before {
+    content: "\2713";
+    margin-right: 5px;
+    color: blue;
+    font-weight: 600;
+}
+
+ul.highlights {
+    list-style: none;
+}
+
+.border-column {
+    border: 1px solid rgb(228,228,230);
+}
+
+.bottom-border {
+    border-bottom: 1px solid rgb(228,228,230);
+}
+
+.period {
+    color: rgb(228,228,230);
+}

@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    height: 80px;
+    height: 85px;
     font-size: small;
 }
 
@@ -47,7 +47,7 @@ header ul {
 }
 
 ul.d-flex li {
-    padding:  30px 15px;
+    padding:0 15px;
 }
 
 ul.info li {
@@ -227,3 +227,12 @@ h2 {
 .price {
     font-weight: 600;
 }
+
+.img-size {
+
+}
+
+.align-cen {
+    align-items: center; 
+    height: 100%; 
+} 

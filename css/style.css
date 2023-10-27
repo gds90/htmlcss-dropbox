@@ -81,6 +81,22 @@ ul.info {
 ul.highlights li {
     margin: 10px 0;
 }
+
+ul.footer-list {
+    list-style: none;
+}
+
+ul.footer-list li {
+    color: white;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+ul.footer-list > li:first-child {
+    font-size: 18px;
+    font-weight: 600;
+}
+
 #jumbo p {
     line-height: 1.5;
 }
@@ -107,7 +123,7 @@ header a {
 .container-sm {
     max-width: 60%;
     margin:0 auto;
-    background-color: lightcoral;
+
 }
 
 .row {
@@ -209,6 +225,10 @@ header a {
     padding: 30px;
 }
 
+.padding-y-30 {
+    padding: 30px 0;
+}
+
 .padding-top-50 {
     padding-top: 50px;
 }
@@ -303,8 +323,7 @@ ul.highlights {
 }
 
 .period {
-    color: rgb(228,228,230);
-    border: 5px ;
+    color: rgb(140, 140, 141);
 }
 
 .square-content {
@@ -358,4 +377,9 @@ ul.highlights {
 
 #dropbox-bus {
     color: rgb(89,19,43);
+}
+
+#language {
+    color:rgb(153,153,151);
+    font-size: 12px;
 }

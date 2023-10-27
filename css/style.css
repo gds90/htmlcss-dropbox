@@ -81,6 +81,7 @@ ul.info li {
 
 ul.info {
     list-style: none;
+    margin-left: 20px;
 }
 
 ul.highlights li {
@@ -124,6 +125,7 @@ header a {
 
 .container-full {
     width: 100%;
+    margin:0 auto;
 }
 
 .container-bg {
@@ -242,6 +244,11 @@ header a {
     padding-top: 50px;
 }
 
+
+.padding-top-150 {
+    padding-top: 150px;
+}
+
 .padding-top-20 {
     padding-top: 20px;
 }
@@ -286,6 +293,10 @@ h2 {
     font-size: 14px;
 }
 
+.font-size-15{
+    font-size: 15px;
+}
+
 .font-size-12{
     font-size: 12px;
 }
@@ -315,11 +326,6 @@ h2 {
     align-items: center; 
     height: 100%; 
 }
-
-/* ul.info li:first-child::before {
-    content: "\f1e0";
-    font-family: 'font-awesome';
-} */
 
 ul.highlights li::before {
     content: "\2713";
@@ -405,3 +411,4 @@ ul.highlights {
     color:rgb(153,153,151);
     font-size: 12px;
 }
+

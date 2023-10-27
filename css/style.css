@@ -120,8 +120,8 @@ header a {
 .square {
     width: 50%;
     height: calc(100vw / 6);
-    background-color: red;
     border: 1px solid black;
+    position: relative;
 }
 
 .d-flex {
@@ -205,6 +205,10 @@ header a {
     align-items: center
 }
 
+.padding-30 {
+    padding: 30px;
+}
+
 .padding-top-50 {
     padding-top: 50px;
 }
@@ -253,6 +257,10 @@ h2 {
     font-size: 12px;
 }
 
+.font-size-11{
+    font-size: 11px;
+}
+
 .fa-solid {
     margin-right: 5px;
 }
@@ -296,4 +304,58 @@ ul.highlights {
 
 .period {
     color: rgb(228,228,230);
+    border: 5px ;
+}
+
+.square-content {
+    width: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+#square-designit {
+    background-color: rgb(172, 210, 160);
+    border: 10px solid rgb(214, 232, 207)
+}
+
+#square-asu {
+    background-color: rgb(89,19,43);
+}
+
+#square-uf {
+    background-color: rgb(64, 145, 201);
+}
+
+#square-topps {
+    background-color: red;
+}
+
+#square-wbr {
+    background-color: rgb(195,41,43);
+}
+
+#square-lonelyplanet {
+    background-color: rgb(19,35,124);
+}
+
+#square-clearchannel {
+    background-color: rgb(249,218,86);
+}
+
+.invert-color{
+    filter: invert(100%);
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.bg-gray {
+    background-color: rgb(245,245,245);
+}
+
+#dropbox-bus {
+    color: rgb(89,19,43);
 }

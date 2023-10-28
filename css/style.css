@@ -8,13 +8,26 @@ body {
     font-family: verdana, sans-serif;
 }
 
+/* HEADER  */
+
 header {
     height: 85px;
-    font-size: small;
+    font-size: 18px;
     width: 100%;
     background-color: white;
     position: fixed;
     z-index: 1;
+}
+
+header a {
+    text-decoration: none;
+    color:black
+}
+
+.header-main-container {
+    max-width: 100%;
+    margin: 0 auto; 
+    height: 100%;
 }
 
 footer {
@@ -24,7 +37,7 @@ footer {
 
 h1 {
     text-align: left;
-    font-size: 60px;
+    font-size: 90px;
     line-height: 1.5;
 }
 
@@ -40,13 +53,15 @@ img {
     width: 100%;
 }
 
+/* COMMON */
+
 .button {
     background-color: rgb(40,95,246);
     padding: 10px 15px;
     color: white;
     border: none;
-    font-size: 12px;
     font-weight: 100;
+    font-size: 18px;
 }
 
 .button-full {
@@ -56,13 +71,14 @@ img {
 #partner-button {
     padding: 10px 15px;
     border: 1px solid black;
-    font-size: 13px;
+    font-size: 17px;
     background-color: white;
 }
 
 #free-trial-button {
     padding: 10px 15px;
-    font-size: 13px;
+    font-size: 18px;
+    font-weight: 300;
     background-color: white;
     border: none;
 }
@@ -72,9 +88,9 @@ hr {
     color: rgb(228,228,230);
 }
 
-/* COMMON  */
+/* LISTS  */
 
-header ul {
+ul {
     list-style: none;
 }
 
@@ -92,6 +108,11 @@ ul.info {
     margin-left: 20px;
 }
 
+ul.highlights {
+    margin-left: 20px;
+    list-style: none;
+}
+
 ul.highlights li {
     margin: 10px 0;
     line-height: 1.5;
@@ -104,12 +125,18 @@ ul.footer-list {
 ul.footer-list li {
     color: white;
     padding: 10px 0;
-    font-size: 12px;
+    font-size: 17px;
+    font-weight: 100;
 }
 
 ul.footer-list > li:first-child {
     font-size: 18px;
     font-weight: 600;
+}
+
+.fa-check {
+    color:rgb(40,95,246);
+    font-size: large;
 }
 
 .bg-lightblue {
@@ -120,15 +147,19 @@ ul.footer-list > li:first-child {
     line-height: 1.5;
 }
 
-header a {
-    text-decoration: none;
-    color:black
-}
+
 
 .arrow {
     font-size: 50px;
     position: relative;
     top: 10px;  
+}
+
+
+
+.jumbo-main-container {
+    max-width: 1920px;
+    margin: 0 auto; 
 }
 
 .container-full {
@@ -212,17 +243,6 @@ header a {
     width: 100%;
 }
 
-.content-300 {
-    width: 100%;
-    height: 300px;
-    background-color: brown;
-}
-
-.content-75 {
-    width: 100%;
-    height: 75px;
-    background-color: blue;
-}
 
 .justify-sb {
     justify-content: space-between;
@@ -287,17 +307,22 @@ header a {
 
 h2 {
     padding: 20px 0;
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 24px;
 }
 
 .pay-type {
     margin-left: 5px;
     margin-right: 40px;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .top-column {
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     padding: 10px;
 }
 
@@ -309,16 +334,21 @@ h2 {
     font-size: 14px;
 }
 
-.font-size-15{
-    font-size: 15px;
+.font-size-24{
+    font-size: 24px;
+    font-weight: 100    ;
 }
 
 .font-size-13{
     font-size: 13px;
 }
 
-.font-size-12{
-    font-size: 12px;
+.font-size-17{
+    font-size: 17px;
+}
+
+.font-size-18{
+    font-size: 18px;
 }
 
 .font-size-11{
@@ -345,17 +375,6 @@ h2 {
 .align-cen {
     align-items: center; 
     height: 100%; 
-}
-
-ul.highlights li::before {
-    content: "\2713";
-    margin-right: 5px;
-    color: blue;
-    font-weight: 600;
-}
-
-ul.highlights {
-    list-style: none;
 }
 
 .border-column {
@@ -429,6 +448,6 @@ ul.highlights {
 
 #language {
     color:rgb(153,153,151);
-    font-size: 12px;
+    font-size: 15px;
 }
 

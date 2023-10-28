@@ -7,6 +7,29 @@
 body {
     font-family: verdana, sans-serif;
 }
+h1 {
+    text-align: left;
+    font-size: 90px;
+    line-height: 1.5;
+}
+
+h2 {
+    padding: 20px 0;
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+
+p {
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
 
 /* HEADER  */
 
@@ -30,92 +53,32 @@ header a {
     height: 100%;
 }
 
+/* JUMBO SECTION  */
+
+.jumbo-main-container {
+    max-width: 1920px;
+    margin: 0 auto; 
+}
+
+.bg-lightblue {
+    background-color: rgb(185,207,229);
+}
+
+#jumbo p {
+    line-height: 1.5;
+}
+
+.arrow {
+    font-size: 50px;
+    position: relative;
+    top: 10px;  
+}
+
+/* FOOTER  */
+
 footer {
     background-color: black;
     padding: 50px 0;
-}
-
-h1 {
-    text-align: left;
-    font-size: 90px;
-    line-height: 1.5;
-}
-
-h2 {
-    font-size: 28px;
-}
-
-p {
-    line-height: 1.5;
-}
-
-img {
-    width: 100%;
-}
-
-/* COMMON */
-
-.button {
-    background-color: rgb(40,95,246);
-    padding: 10px 15px;
-    color: white;
-    border: none;
-    font-weight: 100;
-    font-size: 18px;
-}
-
-.button-full {
-    width: 100%;
-}
-
-#partner-button {
-    padding: 10px 15px;
-    border: 1px solid black;
-    font-size: 17px;
-    background-color: white;
-}
-
-#free-trial-button {
-    padding: 10px 15px;
-    font-size: 18px;
-    font-weight: 300;
-    background-color: white;
-    border: none;
-}
-
-hr {
-    width: 20%;
-    color: rgb(228,228,230);
-}
-
-/* LISTS  */
-
-ul {
-    list-style: none;
-}
-
-ul.d-flex li {
-    padding:0 15px;
-}
-
-ul.info li {
-    padding:  10px 0px;
-    line-height: 1.5;
-}
-
-ul.info {
-    list-style: none;
-    margin-left: 20px;
-}
-
-ul.highlights {
-    margin-left: 20px;
-    list-style: none;
-}
-
-ul.highlights li {
-    margin: 10px 0;
-    line-height: 1.5;
 }
 
 ul.footer-list {
@@ -134,116 +97,7 @@ ul.footer-list > li:first-child {
     font-weight: 600;
 }
 
-.fa-check {
-    color:rgb(40,95,246);
-    font-size: large;
-}
-
-.bg-lightblue {
-    background-color: rgb(185,207,229);
-}
-
-#jumbo p {
-    line-height: 1.5;
-}
-
-
-
-.arrow {
-    font-size: 50px;
-    position: relative;
-    top: 10px;  
-}
-
-
-
-.jumbo-main-container {
-    max-width: 1920px;
-    margin: 0 auto; 
-}
-
-.container-full {
-    width: 100%;
-    margin:0 auto;
-}
-
-.container-bg {
-    max-width: 80%;
-    margin:0 auto;
-}
-
-.container-sm {
-    max-width: 60%;
-    margin:0 auto;
-
-}
-
-.row {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-}
-
-
-.square {
-    width: 50%;
-    height: calc(100vw / 6);
-    position: relative;
-}
-
-.d-flex {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.col-20 {
-    width: calc(100% / 5);
-}
-
-.col-25 {
-    width: calc(100% / 4);
-    height: calc(100% / 2);
-}
-
-.col-30 {
-    width: 30%;
-}
-
-.col-33 {
-    width: calc(100% / 3);
-}
-
-.col-40 {
-    width: 40%;
-}
-
-.col-50 {
-    width: 50%;
-}
-
-.col-60 {
-    width: 60%;
-}
-
-.col-70 {
-    width: 70%;
-}
-
-.col-80 {
-    width: 80%;
-}
-
-.col-100 {
-    width: 100%;
-}
-
-.content {
-    width: 100%;
-}
-
-
+/* COMMON */
 .justify-sb {
     justify-content: space-between;
 }
@@ -305,58 +159,55 @@ ul.footer-list > li:first-child {
     margin-top: 10px;
 }
 
-h2 {
-    padding: 20px 0;
-    font-size: 3em;
+.d-flex {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-h3 {
-    font-size: 24px;
+.row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-color: rgb(40,95,246);
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.button-full {
+    width: 100%;
+}
+
+#partner-button {
+    padding: 10px 15px;
+    border: 1px solid black;
+    font-size: 17px;
+    background-color: white;
+}
+
+#free-trial-button {
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: white;
+    border: none;
+}
+
+hr {
+    width: 20%;
+    color: rgb(228,228,230);
 }
 
 .pay-type {
     margin-left: 5px;
     margin-right: 40px;
     font-size: 18px;
-}
-
-.top-column {
-    text-align: center;
-    font-size: 16px;
-    padding: 10px;
-}
-
-.bottom-column {
-    padding:20px;
-}
-
-.font-size-14{
-    font-size: 14px;
-}
-
-.font-size-24{
-    font-size: 24px;
-    font-weight: 100    ;
-}
-
-.font-size-13{
-    font-size: 13px;
-}
-
-.font-size-17{
-    font-size: 17px;
-}
-
-.font-size-18{
-    font-size: 18px;
-}
-
-.font-size-11{
-    font-size: 11px;
-}
-
-.fa-solid {
-    margin-right: 5px;
 }
 
 .price {
@@ -377,6 +228,120 @@ h3 {
     height: 100%; 
 }
 
+/* LISTS  */
+
+ul {
+    list-style: none;
+}
+
+ul.d-flex li {
+    padding:0 15px;
+}
+
+ul.info li {
+    padding:  10px 0px;
+    line-height: 1.5;
+}
+
+ul.info {
+    list-style: none;
+    margin-left: 20px;
+}
+
+ul.highlights {
+    margin-left: 20px;
+    list-style: none;
+}
+
+ul.highlights li {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.fa-check {
+    color:rgb(40,95,246);
+    font-size: large;
+}
+
+.fa-solid {
+    margin-right: 5px;
+}
+
+/* COMMON CONTAINER */
+
+.container-full {
+    width: 100%;
+    margin:0 auto;
+}
+
+.container-bg {
+    max-width: 80%;
+    margin:0 auto;
+}
+
+.container-sm {
+    max-width: 60%;
+    margin:0 auto;
+
+}
+
+/* COLONNE */
+
+.col-20 {
+    width: calc(100% / 5);
+}
+
+.col-25 {
+    width: calc(100% / 4);
+    height: calc(100% / 2);
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-70 {
+    width: 70%;
+}
+
+.col-80 {
+    width: 80%;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+}
+
+.top-column {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.bottom-column {
+    padding:20px;
+}
+
 .border-column {
     border: 1px solid rgb(228,228,230);
 }
@@ -385,8 +350,31 @@ h3 {
     border-bottom: 1px solid rgb(228,228,230);
 }
 
+/* FONT-SIZE  */
+
+.font-size-24{
+    font-size: 24px;
+    font-weight: 100    ;
+}
+
+.font-size-17{
+    font-size: 17px;
+}
+
+.font-size-18{
+    font-size: 18px;
+}
+
 .period {
     color: rgb(140, 140, 141);
+}
+
+/* SCACCHIERA LOGHI */
+
+.square {
+    width: 50%;
+    height: calc(100vw / 6);
+    position: relative;
 }
 
 .square-content {

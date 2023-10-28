@@ -227,6 +227,28 @@ hr {
     height: 100%; 
 }
 
+/* COMMON CONTAINER */
+
+.container-full {
+    width: 100%;
+    margin:0 auto;
+}
+
+.container-bg {
+    max-width: 80%;
+    margin:0 auto;
+}
+
+.container-sm {
+    max-width: 60%;
+    margin:0 auto;
+}
+
+.spacer {
+    width:100%;
+    height: 100px;
+}
+
 /* LISTS  */
 
 ul {
@@ -264,24 +286,6 @@ ul.highlights li {
 
 .fa-solid {
     margin: 0 10px;
-}
-
-/* COMMON CONTAINER */
-
-.container-full {
-    width: 100%;
-    margin:0 auto;
-}
-
-.container-bg {
-    max-width: 80%;
-    margin:0 auto;
-}
-
-.container-sm {
-    max-width: 60%;
-    margin:0 auto;
-
 }
 
 /* COLONNE */

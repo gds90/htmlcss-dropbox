@@ -200,8 +200,7 @@ ul.footer-list > li:first-child {
 }
 
 hr {
-    width: 20%;
-    color: rgb(228,228,230);
+    width: 20%; color: rgb(228,228,230);
 }
 
 .pay-type {
@@ -239,7 +238,7 @@ ul.d-flex li {
 }
 
 ul.info li {
-    padding:  10px 0px;
+    padding:  10px 5px;
     line-height: 1.5;
 }
 
@@ -254,7 +253,7 @@ ul.highlights {
 }
 
 ul.highlights li {
-    margin: 10px 0;
+    padding: 10px 5px;
     line-height: 1.5;
 }
 
@@ -264,7 +263,7 @@ ul.highlights li {
 }
 
 .fa-solid {
-    margin-right: 5px;
+    margin: 0 10px;
 }
 
 /* COMMON CONTAINER */

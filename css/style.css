@@ -5,21 +5,27 @@
 }
 
 body {
-    font-family: verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 h1 {
     text-align: left;
     font-size: 90px;
     line-height: 1.5;
+    font-weight: bold;
 }
 
 h2 {
     padding: 20px 0;
-    font-size: 2em;
+    font-size: 3em;
+
 }
 
 h3 {
     font-size: 24px;
+}
+
+h4 {
+    font-size: 2em;
 }
 
 
@@ -191,12 +197,28 @@ ul.footer-list > li:first-child {
     background-color: white;
 }
 
+#partner-button:hover {
+    background-color: rgb(0, 0, 0,0.8);
+    border: 1px solid lightgray;
+    color:#fff;
+}
+
+#free-trial-button:hover {
+    background-color: rgb(0, 0, 0,0.8);
+    border: 1px solid #fff;
+    color:#fff;
+}
+
 #free-trial-button {
     padding: 10px 15px;
     font-size: 18px;
     font-weight: 300;
     background-color: white;
     border: none;
+}
+
+.button:hover {
+    background-color: rgba(11, 21, 72,0.9);;
 }
 
 hr {
@@ -232,6 +254,11 @@ hr {
 .container-full {
     width: 100%;
     margin:0 auto;
+}
+
+.main-container {
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .container-bg {

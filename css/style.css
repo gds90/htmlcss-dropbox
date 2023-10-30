@@ -97,18 +97,6 @@ header a {
     display: block;
 }
 
-/* SQUARES ANIMATION */
-.square-container:hover .square:not(:hover) {
-    opacity: 0.3;
-}
-
-.square:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-    z-index: 0;
-    transition: all 0.5s;
-}
-
 /* FOOTER  */
 
 footer {
@@ -318,7 +306,19 @@ ul {
 }
 
 ul.d-flex li {
-    padding:0 15px;
+    padding: 22px 15px;
+}
+
+ul.left-menu li:not(:first-child):hover {
+    background-color: rgb(185,207,229, 0.2);
+    border-radius: 30px;
+    transition: all 0.2s;
+}
+
+ul.right-menu li:not(:last-child):hover {
+    background-color: rgb(185,207,229, 0.2);
+    border-radius: 30px;
+    transition: all 0.2s;
 }
 
 ul.info li {
@@ -511,6 +511,18 @@ ul#menu ul li {
 
 .bg-gray {
     background-color: rgb(245,245,245);
+}
+
+/* SQUARES ANIMATION */
+.square-container:hover .square:not(:hover) {
+    opacity: 0.3;
+}
+
+.square:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    z-index: 0;
+    transition: all 0.5s;
 }
 
 #dropbox-bus {

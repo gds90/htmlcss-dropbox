@@ -341,18 +341,21 @@ ul.highlights li {
     line-height: 1.5;
 }
 
-ul#menu ul {
+#log-list {
     display: none;
     background-color: #fff;
     padding: 15px;
     position: absolute;
     z-index: 1;
     right: 100px;
-    top:80px;
+    top:85px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
-ul#menu li:nth-child(3):hover ul {
+ul#menu li:nth-child(3):hover ul#log-list {
     display: block;
+
 }
 
 ul#menu ul li {

@@ -95,7 +95,18 @@ header a {
 
 .q-a:hover .hidden{
     display: block;
+}
 
+/* SQUARES ANIMATION */
+.square-container:hover .square:not(:hover) {
+    opacity: 0.3;
+}
+
+.square:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    z-index: 1;
+    transition: all 0.5s;
 }
 
 /* FOOTER  */
@@ -219,12 +230,16 @@ ul.footer-list > li:first-child {
     background-color: rgb(0, 0, 0,0.8);
     border: 1px solid lightgray;
     color:#fff;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 #free-trial-button:hover {
     background-color: rgb(0, 0, 0,0.8);
     border: 1px solid #fff;
     color:#fff;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 #free-trial-button {
@@ -236,7 +251,9 @@ ul.footer-list > li:first-child {
 }
 
 .button:hover {
-    background-color: rgba(11, 21, 72,0.9);;
+    background-color: rgba(11, 21, 72,0.9);
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 hr {
